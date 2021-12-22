@@ -28,7 +28,7 @@ La base de datos se implementó usando PostgreSQL y Sequelize.
 
 ## Imagenes del proyecto
 * __HomePage__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI1.png"  />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI1.png?raw=true"  />
 
 
 Al posicionar mouse por encima el borde se torna azul y se produce un efecto de desplazamiento hacia abajo.
