@@ -26,6 +26,16 @@ La base de datos se implementó usando PostgreSQL y Sequelize.
   <img height="200" src="./videogame.png" />    
 </p>
 
+## Tecnologías
+* __HTML__
+* __CSS__
+* __JavaScript__
+* __React__
+* __Redux__
+* __NodeJs__
+* __Express__
+* __Sequelize - Postgres__
+
 ## Imagenes del proyecto
 * __HomePage__
 <img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI1.png?raw=true"  />
@@ -88,13 +98,3 @@ Para verificar que versión tienen instalada:
 > node -v
 >
 > npm -v
-
-## Tecnologías
-* __HTML__
-* __CSS__
-* __JavaScript__
-* __React__
-* __Redux__
-* __NodeJs__
-* __Express__
-* __Sequelize - Postgres__
