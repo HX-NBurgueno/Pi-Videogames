@@ -82,7 +82,11 @@ API=apikey
 Reemplazar `usuariodepostgres` y `passwordDePostgres` con tus propias credenciales para conectarte a postgres y en API ingresar la `api key` obtenida de la siguiente [pagina](https://rawg.io/)
 
 4. Ejecutar los siguientes comandos en las carpetas `/api` y `/client`
+
+
 npm install
+
+
 npm start
 5. Por ultimo abra http://localhost:3000
 
