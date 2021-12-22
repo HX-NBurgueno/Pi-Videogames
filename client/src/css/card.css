@@ -1,0 +1,51 @@
+.container .card{
+    /* width: auto;
+    height: auto; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 6px rgba(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #000000e3;
+  }
+  
+  .container .card:hover{
+    transform: translateY(15px);
+    box-shadow: 1px 1px 6px 6px rgb(0, 204, 255);
+  }
+  
+  .container .card img{
+    padding: 10px;
+    margin: -16px;
+    width: 600px;
+    height: 400px;
+  }
+  
+  .card{
+      margin: 16px;
+      /* width: 18rem; */
+      /* margin-top: -10px; */
+      /* padding-top: 30px; */
+    /* border: 15px solid #001318; */
+      /* border-radius: 10px; */
+  }
+  
+  .genero{
+    color:rgb(0, 204, 255);
+    padding: 5px;
+    padding-top: 2px;
+  }
+  .name{
+    text-align: center;
+       cursor: pointer;
+       color: rgb(0, 204, 255);
+       font-family: 'Courier New', Courier, monospace;
+       text-transform: uppercase;
+       padding-top: 10px;
+  }
+  
+  .rating{
+    color: rgb(0, 204, 255);
+    padding: 5px;
+    padding-top: 2px;
+  }

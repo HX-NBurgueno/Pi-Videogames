@@ -1,0 +1,44 @@
+.detailHome {
+    padding-top: 40px;
+    background-image: url(../assets/img/videogames1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.171);
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+
+.nombre{
+    color:white;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.img{
+    box-shadow: 1px 1px 6px 6px rgb(0, 204, 255);
+    border-radius: 20px;
+    /* padding-top: 30px; */
+    margin-top: 30px;
+    width: 600px;
+    height: 400px;
+}
+.contenedor2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    color:white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.808);
+}
+.LinkDetail{
+    background-color: bisque;
+}

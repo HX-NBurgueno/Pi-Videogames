@@ -1,0 +1,32 @@
+.Sinput{
+    border: 2px solid rgb(0, 204, 255);
+    font-family : 'Courier New', Courier, monospace;
+    font-size   : 100%;
+    border-radius: 19em;
+    padding: 6px 20px;
+    margin-left: 2px;
+  }
+
+.Sbuton{
+    border: none;
+    color: #ffffff;
+    padding: 0.5em 0.9em;
+    margin: 0.5em;
+    margin-left: 0.7em;
+    font-size: 13px;
+    border-radius: 0.4em;
+    background: rgb(0, 204, 255);
+    border: 1px solid #00000048;
+    /* transition: all .1s; */
+    box-shadow: -1px -1px 2px 2px #0303039c,
+                1px 1px 1px 1px rgba(3, 3, 3, 0.781);
+}
+
+.Sbuton:hover {
+    border: 1px solid transparent;
+   }
+
+.Sbuton:active {
+    box-shadow: 4px 4px 12px rgb(255, 255, 255),
+                -4px -4px 12px rgb(255, 255, 255);
+   }
