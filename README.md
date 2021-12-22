@@ -34,27 +34,27 @@ La base de datos se implementó usando PostgreSQL y Sequelize.
 Al posicionar mouse por encima el borde se torna azul y se produce un efecto de desplazamiento hacia abajo.
 
 
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI2.png?token=AUYQB3LL6WT34CSPHDUKUG3BYKUAI"  />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI2.png?raw=true"  />
 
 * __Detalle del juego__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI3.png?token=AUYQB3OSBJIDD54BNNKRWTDBYKUPE" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI3.png?raw=true" />
 
 * __Busqueda por coincidencia__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI4.png?token=AUYQB3ODL3BPR5XQZMBZBATBYKUWY" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI4.png?raw=true" />
 
 * __Formulario de creación de un nuevo juego, controlado__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI5.png?token=AUYQB3JXREBEIQZG2ILQIMLBYKVDI" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI5.png?raw=true" />
 
 Datos de formulario completados excepto la url de la imagen. En este caso no se incluyó pero se puede poner si asi se desea (si no se especifica una imagen, hay una predefinida por defecto).
 
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI6.png?token=AUYQB3KKPPGFDUGC7FZLRGDBYKVIC" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI6.png?raw=true" />
 
 
 * __Demostracion del filtro de creados y a su vez visualizacion del nuevo juego creado en la HomePage__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI7.png?token=AUYQB3MQP7HG6SUSMQWPXJLBYKVRA" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI7.png?raw=true" />
 
 * __Pagina de detalle del nuevo juego creado__
-<img height="350" src="https://raw.githubusercontent.com/nicolasburgueno/img-pi/master/PI8.png?token=AUYQB3ONLSACJJHMFQYNKADBYKVUI" />
+<img height="350" src="https://github.com/nicolasburgueno/img-pi/blob/master/PI8.png?raw=true" />
 
 
 ## Instrucciones
