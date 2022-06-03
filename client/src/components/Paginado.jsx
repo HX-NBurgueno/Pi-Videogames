@@ -1,5 +1,3 @@
-import "../App";
-
 import React from "react";
 
 function Paginado({ gamesPerPage, allGames, paginado }) {

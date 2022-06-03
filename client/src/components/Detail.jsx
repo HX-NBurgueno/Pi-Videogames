@@ -63,7 +63,7 @@ function Detail() {
               <div>{detail.genres && detail.genres.join(", ")}</div>
 
               <h4>Descripción :</h4>
-              <p dangerouslySetInnerHTML={{ __html: detail.description }} />
+              <h3 dangerouslySetInnerHTML={{ __html: detail.description }} />
             </div>
           </div>
         )}

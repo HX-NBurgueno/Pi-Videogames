@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 //?EL USE EFFECT NOS PERMITE COMO SIMULAR ENTRE COMILLAS, LOS ESTADOS DE UN COMPONENTE
+
 import "../css/home.css";
 import "../css/card.css";
 import "../css/select.css";
@@ -22,6 +23,7 @@ import { useEffect, useState } from "react";
 import Card from "./Card";
 import { Link } from "react-router-dom";
 import Paginado from "./Paginado";
+import Paginado2 from "./Paginado2";
 import React from "react";
 import SearchBar from "./SearchBar";
 
@@ -72,6 +74,7 @@ const Home = () => {
 
   const handleFilterGenres = (e) => {
     dispatch(filterGenres(e.target.value));
+    setCurrentPage(1);
   };
 
   const handleFilterCreados = (e) => {
@@ -146,15 +149,16 @@ const Home = () => {
           </option>
           <option value="creados">CREADOS</option>
         </select>
-        <Paginado
+        {/* <Paginado
           gamesPerPage={gamesPerPage}
           allGames={allGames.length}
           paginado={paginado}
-        />
+        /> */}
+        <Paginado2 games={allGames} />
         <SearchBar />
         <div className="container">
-          {currentGame &&
-            currentGame.map((e) => {
+          {allGames &&
+            allGames.map((e) => {
               return (
                 <div key={e.id}>
                   <Link to={`/home/${e.id}`} className="linkhome">
