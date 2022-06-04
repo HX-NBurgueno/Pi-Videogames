@@ -25,7 +25,7 @@ function SearchBar() {
   };
 
   return (
-    <form id="search">
+    <form id="search" className="SearchBar">
       <input
         className="Sinput"
         type="text"

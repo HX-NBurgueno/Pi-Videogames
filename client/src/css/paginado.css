@@ -23,3 +23,26 @@
                 -4px -4px 12px rgb(255, 255, 255);
    }
    /* --------------------------------------- */
+
+   .row{
+       position: relative;
+       /* background-color: aqua; */
+   }
+
+   .flecha{
+    position: absolute;
+    border: none;
+    color: #ffffff;
+    padding: 0.1em 0.9em;
+    left: 26rem;
+    top: 0.4rem;    
+    /* margin-bottom: 4rem; */
+    /* margin-left: 0.7em; */
+    font-size: 19.8px;
+    border-radius: 0.4em;
+    background: rgb(0, 204, 255);
+    border: 2px solid #00000048;
+    /* transition: all .1s; */
+    box-shadow: -1px -1px 2px 2px #0303039c,
+                1px 1px 1px 1px rgba(3, 3, 3, 0.781);
+   }

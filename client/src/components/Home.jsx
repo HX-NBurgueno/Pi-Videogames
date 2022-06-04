@@ -31,15 +31,12 @@ const Home = () => {
   const dispatch = useDispatch(); //ESTO LO QUE HACE ES GUARDARNOS UNA INSTANCIA DEL DESPACHADOR OSEA EL QUE DISPARA LAS ACCIONES DEL REDUCER, ENTONCES AHORA LO QUE PODEMOS HACER CON ESTA VARIABLE DISPATCH ES PASARLE UNA ACCION Y EL SE VA A ENCARGAR DE ENVIARSELA AL REDUCER.
   const allGenres = useSelector((state) => state.genres);
   const allGames = useSelector((state) => state.videogames); //.esto me trae el arreglo del estado. me trae del reducer el estado de videogames, este estado videogames va a tener todos los personajes(ESTO EN EL M2 ERA EL MAP STATE TO PROPS) ahora con el hook USESELECTO ES MAS SIMPLE Y SELECCIONAMOS EL ESTADO QUE QUEREMOS
-  const [currentPage, setCurrentPage] = useState(1); //?que hicimos aca le dijimos, guardame en un estado la pagina actual y una constante que me setee la pagina actual y empieza en 1 porque siempre voy arrancar en la primer pagina
-  const gamesPerPage = 15; //?en esta otra que es un estado local, me va a deci, guardame cuantos juegos quiero yo por pagina ... por eso le ponemos 15, asi pide el readme
+
+  const [currentPage, setCurrentPage] = useState(1); //
+  //?este estado local lo generamos para indicar nuestra pagina actual, y siempre la actual como inical va a ser en 1 y por que siempre hay una pagina que mostrar si tenemos elementos y esa pagina seria la primera de tantas
+
   const [order, setOrder] = useState("");
-  const indexOfLastGame = currentPage * gamesPerPage; //en un principio daria 15 esto ...
-  const indexOfFirstGame = indexOfLastGame - gamesPerPage; //0
-  const currentGame = allGames.slice(indexOfFirstGame, indexOfLastGame); //?Esto va a tener los juegos que estan en la pagina actual.
-  const paginado = (pageNumber) => {
-    setCurrentPage(pageNumber);
-  };
+
   //? LO QUE NECESITO HACER EN ESTE USEEFFECT ES DESPACHAR LA ACCION... PARA ESO LO QUE VAMOS A NECESITAR ES, EL HOOK USEDISPATCH... EN EL M2(LO HACIAMOS A ESO CON EL MAP DISPATCH TO PROPS..AHORA USAMOS ESTE HOOK SUPER SENCILLO) Y IMPORTAR LA ACCION QUE ES LA QUE HACE EL PEDIDO JUSTAMENTE.
 
   useEffect(() => {
@@ -62,14 +59,14 @@ const Home = () => {
     e.preventDefault();
     dispatch(orden(e.target.value));
     setCurrentPage(1);
-    setOrder(e.target.value);
+    // setOrder(e.target.value);
   };
 
   const handleOrdenRating = (e) => {
     e.preventDefault();
     dispatch(ordenRating(e.target.value));
     setCurrentPage(1);
-    setOrder(e.target.value);
+    // setOrder(e.target.value);
   };
 
   const handleFilterGenres = (e) => {
@@ -147,16 +144,21 @@ const Home = () => {
           <option className="coption" value="existentes">
             EXISTENTES
           </option>
-          <option value="creados">CREADOS</option>
+          <option className="coption" value="creados">
+            CREADOS
+          </option>
         </select>
         {/* <Paginado
           gamesPerPage={gamesPerPage}
           allGames={allGames.length}
           paginado={paginado}
         /> */}
-        <Paginado2 games={allGames} />
-        <SearchBar />
-        <div className="container">
+        <Paginado2
+          games={allGames}
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+        />
+        {/* <div className="container">
           {allGames &&
             allGames.map((e) => {
               return (
@@ -173,7 +175,7 @@ const Home = () => {
                 </div>
               );
             })}
-        </div>
+        </div> */}
       </div>
     </div>
   );
