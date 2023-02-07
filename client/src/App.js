@@ -1,4 +1,5 @@
 import "./App.css";
+import "prueba"
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
