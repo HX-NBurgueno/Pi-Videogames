@@ -8,7 +8,7 @@ function Card({ name, image, genres, rating, id }) {
       <h5 className="genero">{genres}</h5>
       <h4 className="rating">{rating}</h4>
       <div className="image">
-        <img src={image} alt="img not found" />
+        <img src={image} alt="imagen no encontrada" />
       </div>
     </div>
   );
