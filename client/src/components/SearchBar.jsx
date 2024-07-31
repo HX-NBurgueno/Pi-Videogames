@@ -29,7 +29,7 @@ function SearchBar() {
       <input
         className="Sinput"
         type="text"
-        placeholder="Buscar44r444"
+        placeholder="Buscar..."
         onChange={handleInputChange}
       />
       <button className="Sbuton" type="submit" onClick={handleSubmit}>
