@@ -16,7 +16,7 @@ function SearchBar() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name) {
-      return alert("Ingresar un nombre por favor.");
+      return alert("Ingresar un nombre por favor.asdasd");
     } else {
       dispatch(getNameGames(name));
       setName("");
@@ -29,7 +29,7 @@ function SearchBar() {
       <input
         className="Sinput"
         type="text"
-        placeholder="Buscar..."
+        placeholder="Buscar44r444"
         onChange={handleInputChange}
       />
       <button className="Sbuton" type="submit" onClick={handleSubmit}>
