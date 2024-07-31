@@ -112,30 +112,30 @@ function Form() {
     dispatch(getGenres());
   }, [dispatch]);
 
-  let plataformas = [
-    "PC",
-    "PlayStation",
-    "Xbox",
-    "Nintendo Switch",
-    "iOS",
-    "Android",
-    "Nintendo",
-    "PS Vita",
-    "PSP",
-    "Wii",
-    "GameCube",
-    "Game Boy",
-    "SNES",
-    "NES",
-    "Commodore",
-    "Atari",
-    "Genesis",
-    " SEGA",
-    "Dreamcast",
-    "3DS",
-    "Game Gear",
-    "Neo Geo",
-  ];
+  // let plataformas = [
+  //   "PC",
+  //   "PlayStation",
+  //   "Xbox",
+  //   "Nintendo Switch",
+  //   "iOS",
+  //   "Android",
+  //   "Nintendo",
+  //   "PS Vita",
+  //   "PSP",
+  //   "Wii",
+  //   "GameCube",
+  //   "Game Boy",
+  //   "SNES",
+  //   "NES",
+  //   "Commodore",
+  //   "Atari",
+  //   "Genesis",
+  //   " SEGA",
+  //   "Dreamcast",
+  //   "3DS",
+  //   "Game Gear",
+  //   "Neo Geo",
+  // ];
 
   return (
     <div className="formcontainer">
