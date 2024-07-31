@@ -16,7 +16,7 @@ function SearchBar() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name) {
-      return alert("Please enter a name");
+      return alert("Ingresar un nombre por favor.");
     } else {
       dispatch(getNameGames(name));
       setName("");
