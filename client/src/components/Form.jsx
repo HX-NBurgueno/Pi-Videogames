@@ -135,7 +135,7 @@ function Form() {
                 type="text"
                 name="name"
                 value={input.name}
-                placeholder="FIFA 22, GTA SAN ANDREAS"
+                placeholder="FIFA s22, GTA SAN ANDREAS"
                 onChange={handleChange}
               />
             </div>
